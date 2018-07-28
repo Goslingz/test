@@ -1,0 +1,1 @@
+检验gosline是否可以通过watch查看新动态
