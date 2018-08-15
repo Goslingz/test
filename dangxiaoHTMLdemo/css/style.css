@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+body, div, address, blockquote, iframe, ul, ol, dl, dt, dd, li, dl, h1, h2, h3, h4, h5, h6, p, pre, table, caption, th, form, legend, fieldset, input, button, select, textarea {margin:0; padding:0; font-weight: normal;font-style: normal;font-size: 100%; font-family: "YaHei","Microsoft YaHei","微软雅黑";} 
+ol, ul ,li{list-style: none;} 
+img {border: 0;} 
+body {color:#000; background:#FFF;text-align: center; font: 12px/1.5  "YaHei","Microsoft YaHei","微软雅黑",Arial, Helvetica, sans-serif; color: #333;} 
+html{-webkit-text-size-adjust:none;}/*chrome font-size<12px */
+.clearfix:after { content:"."; display:block; height:0;	clear:both;	visibility:hidden;}
+a {color: #333; text-decoration: none;}
+a:hover {color: #000; text-decoration: underline;}
+/*index*/
+	body{background:url(../images/bg.jpg) #fdd514 repeat-x;}
+	#main-box {width: 1200px; padding-top: 190px; margin: 0 auto; background: url(../images/bg-main.jpg) no-repeat;}
+	#main-box h1{ line-height: 60px; font-size: 24px; color: #ffff00; text-align: center;}
+	#main-box h1 span {padding:0 10px;}
+	#main-box h2{ line-height: 90px; font-size: 46px; color: #ffff00; font-weight: bold; text-align: center;}
+	#main-box h2 span {padding:0 10px;}
+	#main-box .sfq-box { width: 984px; height: 284px; padding: 8px; background: #fff; margin: 30px auto 0 auto;}
+	#main-box .sfq-box .accordioCon{width:984px;height:284px;overflow:hidden;background-color:#3ca3eb;}
+	#main-box .sfq-box .acc dl dd,.acc dl dt{ float:left;display:inline;padding:0;margin:0;}img{ border:none;}
+	#main-box .sfq-box .acc dl dt{ width:0px;overflow:hidden;}
+	#main-box .sfq-box .acc dl dd{ width:55px;height:284px;cursor:pointer; border-left:2px solid #fff; background-image: url(../images/book-li.png); background-position: center; background-repeat: no-repeat;}
+	
+	#main-box .sfq-box dd.d1{ background-color:#fd6e04;}
+	#main-box .sfq-box dd.d1 .hh1{width:20px; height:224px; margin:0 auto; font-size:20px; line-height:40px; color:#fff; padding-top: 60px; }
+	#main-box .sfq-box dt.d1{ height:284px; text-align:left;}
+	#main-box .sfq-box dt.d1 h1 a{ font-size:22px; color:#fff; padding-left:60px; line-height:60px; text-decoration:none;}
+	#main-box .sfq-box dt.d1 h1 a:hover{ color:#ffff00; text-decoration:none;}
+	#main-box .sfq-box dt.d1 p { color:#fff; font-size:16px; text-align:left;padding-left:60px; width:550px;height: 195px;overflow: hidden;}
+	
+	#main-box .sfq-box dd.d2{ background-color:#fd2362;}
+	#main-box .sfq-box dt.d2{ height:284px; text-align:left;}
+	#main-box .sfq-box dt.d2 h1 a{ font-size:22px; color:#fff; padding-left:60px; line-height:60px; text-decoration:none;}
+	#main-box .sfq-box dt.d2 h1 a:hover{ color:#ffff00; text-decoration:none;}
+	#main-box .sfq-box dt.d2 p { color:#fff; font-size:16px; text-align:left;padding-left:60px; width:550px;height: 195px;overflow: hidden;}
+	#main-box .sfq-box dd.d2 .hh1{width:20px; height:224px; margin:0 auto; font-size:20px; line-height:40px; color:#fff; padding-top: 60px;}
+	
+	#main-box .sfq-box dd.d3{ background-color:#2d9be8;}
+	#main-box .sfq-box dd.d3 .hh1{width:20px; height:224px; margin:0 auto; font-size:20px; line-height:40px; color:#fff; padding-top: 60px;}
+	#main-box .sfq-box dt.d3{ height:284px; text-align:left;}
+	#main-box .sfq-box dt.d3 h1 a{ font-size:22px; color:#fff; padding-left:60px; line-height:60px; text-decoration:none;}
+	#main-box .sfq-box dt.d3 h1 a:hover{ color:#ffff00; text-decoration:none;}
+	#main-box .sfq-box dt.d3 p { color:#fff; font-size:16px; text-align:left;padding-left:60px; width:550px;height: 195px;overflow: hidden;}
+	
+	#main-box .sfq-box dd.d4{ background-color:#84c741;}
+	#main-box .sfq-box dd.d4 .hh1{width:20px; height:224px; margin:0 auto; font-size:20px; line-height:40px; color:#fff; padding-top: 60px;}
+	#main-box .sfq-box dt.d4{ height:284px; text-align:left;}
+	#main-box .sfq-box dt.d4 h1 a{ font-size:22px; color:#fff; padding-left:60px; line-height:60px; text-decoration:none;}
+	#main-box .sfq-box dt.d4 h1 a:hover{ color:#ffff00; text-decoration:none;}
+	#main-box .sfq-box dt.d4 p { color:#fff; font-size:16px; text-align:left;padding-left:60px; width:550px;height: 195px;overflow: hidden;}
+	
+	#main-box .sfq-box dd.d5{ background-color:#9057c9;}
+	#main-box .sfq-box dd.d5 .hh1{width:20px; height:224px; margin:0 auto; font-size:20px; line-height:40px; color:#fff; padding-top: 60px;}
+	#main-box .sfq-box dt.d5{ height:284px; text-align:left;}
+	#main-box .sfq-box dt.d5 h1 a{ font-size:22px; color:#fff; padding-left:60px; line-height:60px; text-decoration:none;}
+	#main-box .sfq-box dt.d5 h1 a:hover{ color:#ffff00; text-decoration:none;}
+	#main-box .sfq-box dt.d5 p { color:#fff; font-size:16px; text-align:left;padding-left:60px; width:550px;height: 195px;overflow: hidden;}
+	
+	#main-box .sfq-box p a {text-decoration: none; color: #fff;}
+	#main-box .sfq-box p a:hover {text-decoration: underline; color: #ffff00;}
+	#bottom-box { width: 100%; height: 300px; background: url(../images/bottom-bg.png) center bottom no-repeat; font-size: 14px; text-align: center;line-height: 480px; color: #ffff00;}
+	
+	
+/*list*/
+	#main-box .menu-box{ width: 998px; height: 48px; background: url(../images/menu-bg.png); box-shadow: 0px 0px 10px #444; margin: 0 auto; border:1px solid #710710; border-radius: 5px;}
+	#main-box .menu-box ul {padding: 0 40px;}
+	#main-box .menu-box ul li{padding-right: 30px; font-size: 17px; line-height: 48px; text-align: left; float: left;}
+	#main-box .menu-box ul li a {color: #fff; text-align: center; text-decoration: none; width: 110px; height: 35px; line-height: 35px; display: inline-block; }
+	#main-box .menu-box ul li a:hover {color: #ffff00; text-decoration: none; background: #710710; border-radius: 5px;}
+	
+	#main-box .paper-box {width: 1000px; min-height: 330px; background: url(../images/paper-bg.png) 0 6px repeat-y; margin: 20px auto;box-shadow: 0px 0px 10px #444; }
+	#main-box .paper-box h3 {line-height: 69px; font-weight: bold; text-align: left; padding: 20px 20px 0 120px; font-size: 20px; border-bottom: 4px double #ccc;}
+	#main-box .paper-box ul li {line-height: 42px; border-bottom:1px solid #ccc;padding: 0 20px 0 120px; font-size: 16px; text-align: left;}
+	#main-box .paper-box ul li i {margin-right: 10px;font-style: normal; width: 10px;}
+	#main-box .paper-box ul li span.rq {float: right; font-size: 14px; color: #888;}
+	
+	#main-box .paper-box .page-box {padding: 0 20px 0 120px; height: 80px; border-top:1px solid #ccc; margin-top: 2px;}
+	/*分页*/
+	.tcdPageCode{padding: 15px 20px;text-align: left;color: #ccc;text-align:center;}
+	.tcdPageCode a{display: inline-block;color: #428bca;display: inline-block;height: 25px;	line-height: 25px;	padding: 0 10px;border: 1px solid #ddd;	margin: 0 2px;border-radius: 4px;vertical-align: middle;}
+	.tcdPageCode a:hover{text-decoration: none;border: 1px solid #428bca;}
+	.tcdPageCode span.current{display: inline-block;height: 25px;line-height: 25px;padding: 0 10px;margin: 0 2px;color: #fff;background-color: #428bca;	border: 1px solid #428bca;border-radius: 4px;vertical-align: middle;}
+	.tcdPageCode span.disabled{	display: inline-block;height: 25px;line-height: 25px;padding: 0 10px;margin: 0 2px;	color: #bfbfbf;background: #f2f2f2;border: 1px solid #bfbfbf;border-radius: 4px;vertical-align: middle;}
+
+	#copyright {width: 1000px; line-height: 50px; font-size: 14px; color: #ffff00; text-align: center; margin: 0 auto;}
+
+/*details*/
+	
+	#main-box .paper-box .content { min-height: 500px;}
+	#main-box .paper-box .content img {max-width: 700px; margin: 10px;}
+	#main-box .paper-box .content p {line-height: 32px; padding: 20px 40px 0 130px; text-align: left; font-size: 16px;text-indent:2em;}	
+	#main-box .paper-box .page-box .left50 { width: 50%; line-height: 50px; float: left; text-align: left;}
+	#main-box .paper-box .page-box .left50 a {padding: 5px 20px; border:1px solid #017ACE; font-size: 14px; text-decoration: none;}
+	#main-box .paper-box .page-box .left50 a:hover { border:1px solid #344768; background: #017ACE; text-decoration: none; color: #fff;}
+	#main-box .paper-box .page-box .right50 { width: 50%; line-height: 50px; float: right; text-align: right;}
+	#main-box .paper-box .page-box .right50 a {padding: 5px 20px; border:1px solid #017ACE; font-size: 14px; text-decoration: none;}
+	#main-box .paper-box .page-box .right50 a:hover { border:1px solid #344768; background: #017ACE; text-decoration: none; color: #fff;}
